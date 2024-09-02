@@ -1,7 +1,8 @@
 const AsSeenOn = () => {
 
     const carasodDatas = [
-        { id: 1, title: "“If you want convenience, call Tina”", secondTitle : "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.",  image: "https://i.ibb.co/262Cdzy/brixagency-1.png" }
+        { id: 1, title: "“If you want convenience, call Tina”", secondTitle : "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.",  image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
+        { id: 2, title: "“If you want convenience, call Tina”", secondTitle : "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.",  image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
     ];
 
     return (
@@ -32,6 +33,8 @@ const AsSeenOn = () => {
                         <p>Lorem ipsum dolor sit amet consectetur fermentum</p>
                     </div>
                 </div>
+
+
 
 
             </div>
