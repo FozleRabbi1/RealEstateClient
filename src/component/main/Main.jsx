@@ -20,9 +20,7 @@ const Main = () => {
         <div className="sticky top-0  z-[50] ">
           <Nav scrollY={scrollY} />
         </div>
-
         <Outlet />
-
         <Footer />
       </div>
     </div>

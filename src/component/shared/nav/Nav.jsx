@@ -2,9 +2,10 @@
 
 import { Link } from "react-router-dom";
 import "./nav.css"
+import Button from "../Button/Button";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 const Nav = ({ scrollY }) => {
-  console.log(scrollY)
   return (
     <div className={`navbar   text-black lg:px-20  ${scrollY >= 100 ? "border-b" : "border-b-transparent"} duration-300`}>
 
@@ -91,7 +92,7 @@ const Nav = ({ scrollY }) => {
       </div>
 
       <div className="navbar-end">
-        <button>button</button>
+      <Button title="Book a call" btnStyle="bg-[#990A05] text-white mt-3 flex justify-center items-center flex-row-reverse py-2"  icon={FaArrowCircleRight} />
       </div>
     </div>
   );
