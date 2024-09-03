@@ -1,5 +1,7 @@
 import AsSeenOn from "./AsSeenOn/AsSeenOn";
 import HeroSection from "./HeroSection/HeroSection";
+import Innovation from "./Innovation/Innovation";
+import TheHeart from "./TheHeart/TheHeart";
 
 
 const Home = () => {
@@ -9,6 +11,9 @@ const Home = () => {
 
           <div className="max-w-[1440px] mx-auto">
           <AsSeenOn/>
+          <TheHeart/>
+          <Innovation/>
+
           
 
           <div>

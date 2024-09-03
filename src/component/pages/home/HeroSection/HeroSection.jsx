@@ -3,16 +3,12 @@ import Button from "../../../shared/Button/Button";
 
 const HeroSection = () => {
 
-    // const handleButton = (i) =>{
-    //     console.log(i)
-    // }
-    // https://i.ibb.co/Jcf1Rf7/logo-White.png
 
     return (
         <div className="">
 
             <div className="relative -mt-20">
-                <img className="w-full h-[60vh] md:h-auto xl:h-[100vh]" src="https://i.ibb.co/dBW4Kjv/hero-Image.png" alt="" />
+                <img className="w-full h-[50vh] md:h-auto xl:h-[100vh]" src="https://i.ibb.co/dBW4Kjv/hero-Image.png" alt="" />
 
                 <div className="absolute max-w-[1440px] top-[35%] md:top-[30%] lg:top-[15%] left-1/2 transform -translate-x-1/2 w-full px-5  ">
 

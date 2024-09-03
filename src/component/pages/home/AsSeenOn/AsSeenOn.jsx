@@ -77,7 +77,7 @@ const AsSeenOn = () => {
                     </div>
                 </div>
 
-                <div className="mx-5 lg:w-1/2 relative bg-white flex justify-center items-center rounded-xl py-2 md:py-10">
+                <div className="mx-5 lg:w-1/2 relative bg-white flex justify-center items-center rounded-xl py-2 md:py-10 mt-5 lg:mt-0">
                     <div className="overflow-hidden flex justify-center items-center">
                         <div className="w-[90%] md:w-[90%]">
                             <Swiper
@@ -120,14 +120,14 @@ const AsSeenOn = () => {
 
                     <button
                         onClick={() => swiperRef.current.slidePrev()}
-                        className="size-8 md:size-12 border border-black duration-300 flex justify-center items-center rounded-full text-xl bg-white hover:bg-black text-black hover:text-white absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1/2 z-[100]"
+                        className="size-8 md:size-12 border border-black duration-300 flex justify-center items-center rounded-full text-xl bg-white hover:bg-black text-black hover:text-white absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1/2 z-[10]"
                     >
                         <IoMdArrowForward />
                     </button>
 
                     <button
                         onClick={() => swiperRef.current.slideNext()}
-                        className="size-8 md:size-12 border border-black duration-300 flex justify-center items-center rounded-full text-xl bg-white hover:bg-black text-black hover:text-white absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2 z-[100]"
+                        className="size-8 md:size-12 border border-black duration-300 flex justify-center items-center rounded-full text-xl bg-white hover:bg-black text-black hover:text-white absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2 z-[10]"
                     >
                         <IoMdArrowBack />
                     </button>
