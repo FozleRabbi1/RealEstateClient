@@ -15,8 +15,8 @@ const Main = () => {
 
   return (
 
-    <div className="bg-white text-black pt-5">
-      <div className="w-[95%] mx-auto  ">
+    <div className="bg-slate-50 text-black pt-5">
+      <div className="w-[95%] mx-auto">
         <div className="sticky top-0  z-[50] ">
           <Nav scrollY={scrollY} />
         </div>
