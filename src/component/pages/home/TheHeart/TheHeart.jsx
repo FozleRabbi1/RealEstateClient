@@ -11,7 +11,7 @@ const TheHeart = () => {
                 <img src="https://i.ibb.co/kJv0BJw/Group-1000008118.png" alt="" />
 
                 <div className="" >                    
-                    <GrayButton title="About us" btnStyle="bg-gray-200 px-1 py-[3px]" icon={FaCircleUser} iconStyle="text-gray-400 bg-white rounded-full text-xl mr-1" />
+                    <GrayButton title="About us" btnStyle="bg-gray-200 px-1 py-[3px] rounded-full " icon={FaCircleUser} iconStyle="text-gray-400 bg-white rounded-full text-xl mr-1" />
                     <h2 className="font-['Cera Pro'] text-[25px] md:text-[30px] lg:text-[48px] font-medium leading-[60px] tracking-[-1.44px] lg:w-[60%] lg:my-3">
                         The heart of real estate innovation
                     </h2>

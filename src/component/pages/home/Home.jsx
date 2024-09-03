@@ -1,6 +1,8 @@
 import AsSeenOn from "./AsSeenOn/AsSeenOn";
 import HeroSection from "./HeroSection/HeroSection";
 import Innovation from "./Innovation/Innovation";
+import Process from "./Process/Process";
+import Testimonials from "./Testimonials/Testimonials";
 import TheHeart from "./TheHeart/TheHeart";
 
 
@@ -13,6 +15,8 @@ const Home = () => {
           <AsSeenOn/>
           <TheHeart/>
           <Innovation/>
+          <Process/>
+          <Testimonials/>
 
           
 
