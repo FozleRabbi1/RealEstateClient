@@ -16,10 +16,12 @@ const AsSeenOn = () => {
         { id: 1, title: "“If you want convenience, call Tina”", secondTitle: "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
         { id: 2, title: "“If you want convenience, call Tina”", secondTitle: "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
     ];
+    
     const { ref, inView } = useInView({
         triggerOnce: true,
         threshold: 0.1,
     });
+
     return (
         <div className="mt-[80px]">
             <h2 className="text-center text-[#A4A6B0] text-lg font-normal leading-[22.5px]">
