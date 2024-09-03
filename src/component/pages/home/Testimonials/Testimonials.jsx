@@ -8,13 +8,16 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
+import Button from "../../../shared/Button/Button";
+import { FaArrowCircleRight } from "react-icons/fa";
+import { MdChevronRight } from "react-icons/md";
 
 const Testimonials = () => {
 
     const swiperRef = useRef(null);
     const carasodDatas = [
-        { id: 1, name : "Andy Smith", title: "Navigating properties made easy, unbeatable USA options.", secondTitle: "Chicago, IL", description: "Sem egestas elit pretium turpis eu quis tristique phasellus pellentesque elementum pharetra iaculis metus pretium.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
-        { id: 2, name : "Andy Smith", title: "Navigating properties made easy, unbeatable USA options.", secondTitle: "Chicago, IL", description: "Sem egestas elit pretium turpis eu quis tristique phasellus pellentesque elementum pharetra iaculis metus pretium.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
+        { id: 1, name: "Andy Smith", title: "Navigating properties made easy, unbeatable USA options.", secondTitle: "Chicago, IL", description: "Sem egestas elit pretium turpis eu quis tristique phasellus pellentesque elementum pharetra iaculis metus pretium.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
+        { id: 2, name: "Andy Smith", title: "Navigating properties made easy, unbeatable USA options.", secondTitle: "Chicago, IL", description: "Sem egestas elit pretium turpis eu quis tristique phasellus pellentesque elementum pharetra iaculis metus pretium.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
     ];
 
     return (
@@ -31,8 +34,7 @@ const Testimonials = () => {
                 </p>
             </div>
 
-            <div className="flex justify-end mx-auto lg:w-2/3 mt-5 xl:-mt-4 mb-4">                
-
+            <div className="flex justify-end mx-auto lg:w-2/3 mt-5 xl:-mt-4 mb-4">
                 <button
                     onClick={() => swiperRef.current.slideNext()}
                     className="size-8 md:size-12 border border-black duration-300 flex justify-center items-center rounded-full text-xl bg-white hover:bg-black text-black hover:text-white  z-[10]"
@@ -48,9 +50,8 @@ const Testimonials = () => {
                 </button>
             </div>
 
-
             <div className="mx-auto lg:w-2/3  bg-white flex justify-center items-center rounded-xl py-2 xl:py-10 mt-5 lg:mt-0">
-                <div className="overflow-hidden flex justify-center items-center">
+                <div className="overflow-hidden flex justify-center items-center ">
                     <div className="w-[90%] md:w-[100%] mx-auto lg:p-10">
                         <Swiper
                             spaceBetween={30}
@@ -96,6 +97,12 @@ const Testimonials = () => {
 
 
 
+            </div>
+
+            <div className="flex justify-center items-center mt-5 md:mt-10">
+                <Button title="CTA 1" btnStyle="bg-[#990A05] text-white mt-4 flex justify-center items-center flex-row-reverse py-2" icon={FaArrowCircleRight} />
+
+                <Button title="CTA 1" btnStyle=" text-black mt-4 flex justify-center items-center flex-row-reverse py-2 font-semibold " icon={MdChevronRight } />
             </div>
 
         </div>
