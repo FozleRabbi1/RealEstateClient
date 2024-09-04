@@ -1,6 +1,6 @@
 
 import { useRef } from "react";
-import GrayButton from "../../../shared/GrayButton/GrayButton";
+import GrayButton from "../../../shared/Buttons/GrayButton/GrayButton";
 import { TbMessageCircleFilled } from "react-icons/tb";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
-import Button from "../../../shared/Button/Button";
+import Button from "../../../shared/Buttons/Button/Button";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { MdChevronRight } from "react-icons/md";
 

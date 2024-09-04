@@ -1,5 +1,5 @@
 import { RiHomeLine } from "react-icons/ri";
-import GrayButton from "../../../shared/GrayButton/GrayButton";
+import GrayButton from "../../../shared/Buttons/GrayButton/GrayButton";
 
 const Process = () => {
     return (

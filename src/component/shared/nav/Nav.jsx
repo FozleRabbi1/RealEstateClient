@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 import "./nav.css"
-import Button from "../Button/Button";
+import Button from "../Buttons/Button/Button";
 import { FaArrowCircleRight } from "react-icons/fa";
 
 const Nav = ({ scrollY }) => {

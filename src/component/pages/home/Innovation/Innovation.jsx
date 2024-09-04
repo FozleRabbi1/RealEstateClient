@@ -1,5 +1,5 @@
 import { FaBabyCarriage, FaCar } from "react-icons/fa";
-import GrayButton from "../../../shared/GrayButton/GrayButton";
+import GrayButton from "../../../shared/Buttons/GrayButton/GrayButton";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { RiFile3Line, RiSearchFill } from "react-icons/ri";
 import { IoBedSharp } from "react-icons/io5";

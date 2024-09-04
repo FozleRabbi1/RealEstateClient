@@ -1,14 +1,13 @@
 import { FaArrowCircleRight } from "react-icons/fa";
-import Button from "../../../shared/Button/Button";
+import Button from "../../../shared/Buttons/Button/Button";
 
 const HeroSection = () => {
 
 
     return (
         <div className="">
-
             <div className="relative -mt-20">
-                <img className="w-full h-[50vh] md:h-auto xl:h-[100vh]" src="https://i.ibb.co/dBW4Kjv/hero-Image.png" alt="" />
+                <img className="w-full h-[55vh] md:h-auto xl:h-[100vh]" src="https://i.ibb.co/dBW4Kjv/hero-Image.png" alt="" />
 
                 <div className="absolute max-w-[1440px] top-[35%] md:top-[30%] lg:top-[15%] left-1/2 transform -translate-x-1/2 w-full px-5  ">
 
@@ -22,7 +21,7 @@ const HeroSection = () => {
 
                         <div className="w-[100%] lg:w-[50%]">
                             <div className="lg:ml-10">
-                                <p className="text-base font-normal leading-4 md:leading-6">
+                                <p className="text-white font-normal leading-4 md:leading-6">
                                     Lorem ipsum dolor sit amet consectetur fermentum eget fringilla egestas a aliquam arcu arcu nunc pretium id semper ut volutpat. Id gravida aenean.
                                     Lorem ipsum dolor sit amet consectetur fermentum eget fringilla egestas a aliquam arcu arcu nunc pretium id semper ut volutpat. Id gravida aenean.
                                 </p>

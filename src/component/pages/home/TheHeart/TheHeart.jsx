@@ -1,7 +1,7 @@
 import { FaCircleUser } from "react-icons/fa6";
-import Button from "../../../shared/Button/Button";
+import Button from "../../../shared/Buttons/Button/Button";
 import { FaArrowCircleRight } from "react-icons/fa";
-import GrayButton from "../../../shared/GrayButton/GrayButton";
+import GrayButton from "../../../shared/Buttons/GrayButton/GrayButton";
 
 const TheHeart = () => {
     return (
