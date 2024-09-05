@@ -77,6 +77,7 @@ const Main = () => {
             transform: "translate(-50%, -50%)",
             left: `${delayedPosition.x}px`,
             top: `${delayedPosition.y}px`,
+            mixBlendMode:"difference"
           }}
           className="custom-cursor"
         ></div>
@@ -93,6 +94,7 @@ const Main = () => {
             transform: "translate(-50%, -50%)",
             left: `${delayedPosition2.x}px`,
             top: `${delayedPosition2.y}px`,
+            mixBlendMode:"difference"
           }}
           className="custom-cursor-ring"
         ></div>
