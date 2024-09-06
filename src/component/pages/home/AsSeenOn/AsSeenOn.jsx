@@ -16,7 +16,7 @@ const AsSeenOn = () => {
         { id: 1, title: "“If you want convenience, call Tina”", secondTitle: "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
         { id: 2, title: "“If you want convenience, call Tina”", secondTitle: "Chicago, IL", description: "Lorem ipsum dolor sit amet consectetur ultrices rutrum fusce dui nisl neque placerat velit.", image: "https://i.ibb.co/262Cdzy/brixagency-1.png" },
     ];
-    
+
     const { ref, inView } = useInView({
         triggerOnce: true,
         threshold: 0.1,
@@ -24,6 +24,23 @@ const AsSeenOn = () => {
 
     return (
         <div className="mt-[80px]">
+
+            {/* <img className=" mix-blend-difference duration-500 hover:mix-blend-normal " src="https://i.ibb.co/bbTw28K/manky-64fbd1a1-9880-4da2-8fad-5815d87b1c73-95e73865-0fa5-4eed-a0b1-47b0c7e76e2c-cmprsd-40.jpg" alt="" /> */}
+
+            <div className="relative inline-block">
+                <img
+                    className="mix-blend-difference transition-opacity duration-500 hover:opacity-0"
+                    src="https://i.ibb.co/bbTw28K/manky-64fbd1a1-9880-4da2-8fad-5815d87b1c73-95e73865-0fa5-4eed-a0b1-47b0c7e76e2c-cmprsd-40.jpg"
+                    alt=""
+                />
+                <img
+                    className="absolute inset-0 transition-opacity duration-500 opacity-0 hover:opacity-100"
+                    src="https://i.ibb.co/bbTw28K/manky-64fbd1a1-9880-4da2-8fad-5815d87b1c73-95e73865-0fa5-4eed-a0b1-47b0c7e76e2c-cmprsd-40.jpg"
+                    alt=""
+                />
+            </div>
+
+
             <h2 className="text-center text-[#A4A6B0] text-lg font-normal leading-[22.5px]">
                 As seen on:
             </h2>

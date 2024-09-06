@@ -25,6 +25,9 @@ const Footer = () => {
               Discover exclusive real estate opportunities
             </h2>
 
+            <h3></h3>
+
+
             <p>Lorem ipsum dolor sit amet consectetur. Egestas eu amet dictum tellus. Purus morbi lorem viverra cras.</p>
 
             <div className="flex mt-4 justify-between items-center bg-[#202127] rounded-full pl-5 pr-1 py-1">

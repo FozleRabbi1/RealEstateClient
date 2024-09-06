@@ -65,40 +65,82 @@ const Main = () => {
 
 
         <div className="hidden lg:block">
-        <div
-          style={{
-            position: "fixed",
-            width: "10px",
-            height: "10px",
-            borderRadius: "50%",
-            backgroundColor: "aqua",
-            pointerEvents: "none",
-            zIndex: 99999999,
-            transform: "translate(-50%, -50%)",
-            left: `${delayedPosition.x}px`,
-            top: `${delayedPosition.y}px`,
-            mixBlendMode:"difference"
-          }}
-          className="custom-cursor"
-        ></div>
-        <div
-          style={{
-            position: "fixed",
-            width: "40px",
-            height: "40px",
-            borderRadius: "50%",
-            border: "1px solid aqua",
-            backgroundColor: "transparent",
-            pointerEvents: "none",
-            zIndex: 9999,
-            transform: "translate(-50%, -50%)",
-            left: `${delayedPosition2.x}px`,
-            top: `${delayedPosition2.y}px`,
-            mixBlendMode:"difference"
-          }}
-          className="custom-cursor-ring"
-        ></div>
-      </div>
+          {/* ============= Same Code ================== */}
+          {/* <div
+            style={{
+              position: "fixed",
+              width: "10px",
+              height: "10px",
+              borderRadius: "50%",
+              backgroundColor: "aqua",
+              pointerEvents: "none",
+              zIndex: 99999999,
+              transform: "translate(-50%, -50%)",
+              left: `${delayedPosition.x}px`,
+              top: `${delayedPosition.y}px`,
+              mixBlendMode: "difference"
+            }}
+            className="custom-cursor"
+          ></div>
+          <div
+            style={{
+              position: "fixed",
+              width: "40px",
+              height: "40px",
+              borderRadius: "50%",
+              border: "1px solid aqua",
+              backgroundColor: "transparent",
+              pointerEvents: "none",
+              zIndex: 9999,
+              transform: "translate(-50%, -50%)",
+              left: `${delayedPosition2.x}px`,
+              top: `${delayedPosition2.y}px`,
+              mixBlendMode: "difference"
+            }}
+            className="custom-cursor-ring"
+          ></div> */}
+
+
+          {/* ============= Same Code === Just change the color ================== */}
+          <div
+            style={{
+              position: "fixed",
+              width: "10px",
+              height: "10px",
+              borderRadius: "50%",
+              backgroundColor: "white",
+              pointerEvents: "none",
+              zIndex: 99999999,
+              transform: "translate(-50%, -50%)",
+              left: `${delayedPosition.x}px`,
+              top: `${delayedPosition.y}px`,
+              mixBlendMode: "difference"
+            }}
+            className="custom-cursor"
+          ></div>
+
+          <div
+            style={{
+              position: "fixed",
+              width: "40px",
+              height: "40px",
+              borderRadius: "50%",
+              border: "1px solid #ffffff",
+              backgroundColor: "white",
+              pointerEvents: "none",
+              zIndex: 9999,
+              transform: "translate(-50%, -50%)",
+              left: `${delayedPosition2.x}px`,
+              top: `${delayedPosition2.y}px`,
+              mixBlendMode: "difference"
+            }}
+            className="custom-cursor-ring"
+          ></div>
+
+
+
+
+        </div>
       </div>
     </div>
 
